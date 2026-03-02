@@ -1,0 +1,126 @@
+{
+  "student_metadata": {
+    "name": "Kanhaiya Kumar",
+    "roll_number": "230062",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-02"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Understanding paper relevance",
+      "prompt": "Is the paper 'Robust Point Set Registration Using Gaussian Mixture Models' suitable for an Advanced Machine Learning project?",
+      "llm_response_summary": "Yes. The paper is highly suitable because it applies probabilistic modeling using Gaussian Mixture Models and optimizes parameters using the Expectation-Maximization (EM) algorithm. It combines statistical learning theory with geometric transformation estimation, which are core topics in advanced ML.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Confirmed that the paper aligns with core ML concepts such as GMMs, EM, and likelihood maximization.",
+      "student_verification": "Verified by reviewing the mathematical formulation and confirming the EM-based likelihood optimization framework.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Understanding main contribution",
+      "prompt": "Explain the main contribution of Robust Point Set Registration Using Gaussian Mixture Models in simple terms.",
+      "llm_response_summary": "The main idea is to treat one set of points as samples from a Gaussian Mixture Model and align another set by maximizing the likelihood under that model. Instead of finding hard correspondences between points, the method assigns soft probabilistic correspondences, making it more robust to noise and outliers.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Clarified that the innovation lies in probabilistic correspondence instead of deterministic matching.",
+      "student_verification": "Cross-checked with the methodology section to confirm likelihood formulation and soft assignment concept.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Understanding EM algorithm usage",
+      "prompt": "How is the Expectation-Maximization algorithm applied in GMM-based point set registration?",
+      "llm_response_summary": "In the E-step, the algorithm computes the posterior probability that each point belongs to each Gaussian component (soft correspondence). In the M-step, it updates the transformation parameters (rotation, translation, scaling) and GMM parameters by maximizing expected log-likelihood. This process repeats until convergence.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped structure my understanding of the optimization flow clearly into E-step and M-step components.",
+      "student_verification": "Verified equations for posterior probability computation and parameter updates in the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Feasibility of reproduction",
+      "prompt": "Can GMM-based point set registration be implemented and tested on a CPU-only laptop?",
+      "llm_response_summary": "Yes. For moderate-sized datasets (e.g., a few thousand points), EM-based GMM registration can be implemented efficiently using NumPy or similar libraries. GPU acceleration is helpful but not required for small or synthetic datasets.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Confirmed feasibility within hardware constraints.",
+      "student_verification": "Checked experimental dataset sizes and computational complexity; confirmed no GPU-specific implementation required.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Draft refinement",
+      "prompt": "Write a concise 2-3 line justification for selecting this paper for an ML project.",
+      "llm_response_summary": "This paper presents a probabilistic framework for point set registration using Gaussian Mixture Models and EM optimization. It replaces hard correspondences with soft assignments, improving robustness to noise and outliers. The method combines statistical modeling and optimization, making it highly relevant to advanced machine learning.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Improved clarity and structure of justification according to rubric expectations.",
+      "student_verification": "Edited wording slightly to reflect my own understanding.",
+      "confidence_level": 5
+    }
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 3,
+      "prompt": "How is the Expectation-Maximization algorithm applied in GMM-based point set registration?",
+      "why_important": "Helped understand the core optimization mechanism of the paper."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Explain the main contribution in simple terms.",
+      "why_important": "Clarified the conceptual foundation before deeper reading."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 4,
+      "prompt": "Can it be implemented on a CPU-only laptop?",
+      "why_important": "Ensured practical feasibility of reproduction."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 1,
+      "prompt": "Is this paper suitable for an Advanced ML project?",
+      "why_important": "Confirmed academic relevance before finalizing selection."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "Write a concise justification.",
+      "why_important": "Improved final presentation quality."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding_acknowledged": true,
+    "signature": "Kanhaiya Kumar",
+    "date": "2026-03-02"
+  }
+}
