@@ -1,0 +1,50 @@
+{
+  "student_name": "Kanhaiya Kumar",
+  "roll_number": "230062",
+  "task_tag": "Task 1.3",
+  "interactions": [
+    {
+      "task_tag": "Task 1.3",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "How does this GMM method compare to standard Iterative Closest Point (ICP)?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I structured the comparison into a clear pro/con analysis and added my own reflections on the computational tradeoffs between hard and soft assignments."
+    },
+    {
+      "task_tag": "Task 1.3",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "In what specific scenarios would ICP fail but this GMM method succeed?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I structured the comparison into a clear pro/con analysis and added my own reflections on the computational tradeoffs between hard and soft assignments."
+    },
+    {
+      "task_tag": "Task 1.3",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Are there any cases where ICP is better than the GMM formulation?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I structured the comparison into a clear pro/con analysis and added my own reflections on the computational tradeoffs between hard and soft assignments."
+    }
+  ],
+  "student_verification": "I verify that all LLM interactions for Task 1.3 have been logged accurately. The core analysis, interpretations, and experimental design decisions were my own.",
+  "declaration": "I declare that the above log is a complete and honest record of my LLM usage for this task.",
+  "top_5_prompts": [
+    {
+      "prompt": "How does this GMM method compare to standard Iterative Closest Point (ICP)?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "In what specific scenarios would ICP fail but this GMM method succeed?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "Are there any cases where ICP is better than the GMM formulation?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    }
+  ]
+}

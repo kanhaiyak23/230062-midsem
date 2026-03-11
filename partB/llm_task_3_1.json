@@ -1,0 +1,50 @@
+{
+  "student_name": "Kanhaiya Kumar",
+  "roll_number": "230062",
+  "task_tag": "Task 3.1",
+  "interactions": [
+    {
+      "task_tag": "Task 3.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "I need to do an ablation study. What happens if I remove the multi-scale annealing?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I designed the execution flow for the ablations, plotted the comparative results, and mathematically interpreted why the optimizer failed under these ablated conditions."
+    },
+    {
+      "task_tag": "Task 3.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Write code to run the registration using only the finest scale.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I designed the execution flow for the ablations, plotted the comparative results, and mathematically interpreted why the optimizer failed under these ablated conditions."
+    },
+    {
+      "task_tag": "Task 3.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "What happens if I set the TPS regularization lambda to 0?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I designed the execution flow for the ablations, plotted the comparative results, and mathematically interpreted why the optimizer failed under these ablated conditions."
+    }
+  ],
+  "student_verification": "I verify that all LLM interactions for Task 3.1 have been logged accurately. The core analysis, interpretations, and experimental design decisions were my own.",
+  "declaration": "I declare that the above log is a complete and honest record of my LLM usage for this task.",
+  "top_5_prompts": [
+    {
+      "prompt": "I need to do an ablation study. What happens if I remove the multi-scale annealing?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "Write code to run the registration using only the finest scale.",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "What happens if I set the TPS regularization lambda to 0?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    }
+  ]
+}

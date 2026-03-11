@@ -1,0 +1,50 @@
+{
+  "student_name": "Kanhaiya Kumar",
+  "roll_number": "230062",
+  "task_tag": "Task 2.2",
+  "interactions": [
+    {
+      "task_tag": "Task 2.2",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Help me implement the L2 distance between two GMMs in Python based on the paper's equation.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I heavily modified the provided code to integrate seamlessly into a single notebook, fixed matrix dimensionality issues, removed unnecessary framework dependencies, and added extensive comments mapping each line of code to the paper's equations."
+    },
+    {
+      "task_tag": "Task 2.2",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "How do I set up the TPS kernel matrix and bending energy penalty?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I heavily modified the provided code to integrate seamlessly into a single notebook, fixed matrix dimensionality issues, removed unnecessary framework dependencies, and added extensive comments mapping each line of code to the paper's equations."
+    },
+    {
+      "task_tag": "Task 2.2",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Can you provide the L-BFGS-B optimization loop with multi-scale sequence annealing?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I heavily modified the provided code to integrate seamlessly into a single notebook, fixed matrix dimensionality issues, removed unnecessary framework dependencies, and added extensive comments mapping each line of code to the paper's equations."
+    }
+  ],
+  "student_verification": "I verify that all LLM interactions for Task 2.2 have been logged accurately. The core analysis, interpretations, and experimental design decisions were my own.",
+  "declaration": "I declare that the above log is a complete and honest record of my LLM usage for this task.",
+  "top_5_prompts": [
+    {
+      "prompt": "Help me implement the L2 distance between two GMMs in Python based on the paper's equation.",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "How do I set up the TPS kernel matrix and bending energy penalty?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "Can you provide the L-BFGS-B optimization loop with multi-scale sequence annealing?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    }
+  ]
+}

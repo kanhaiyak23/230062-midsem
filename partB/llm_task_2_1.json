@@ -1,0 +1,50 @@
+{
+  "student_name": "Kanhaiya Kumar",
+  "roll_number": "230062",
+  "task_tag": "Task 2.1",
+  "interactions": [
+    {
+      "task_tag": "Task 2.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "How should I generate a synthetic 2D point set for non-rigid registration?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I selected the specific flower shape formula, tweaked the noise parameters and outlier counts to make the registration visually challenging, and organized the final data saving structure."
+    },
+    {
+      "task_tag": "Task 2.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Write code to apply a specific non-rigid bending and stretching to 2D coordinates.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I selected the specific flower shape formula, tweaked the noise parameters and outlier counts to make the registration visually challenging, and organized the final data saving structure."
+    },
+    {
+      "task_tag": "Task 2.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "How can I add Gaussian noise and random outliers to the point set to test robustness?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I selected the specific flower shape formula, tweaked the noise parameters and outlier counts to make the registration visually challenging, and organized the final data saving structure."
+    }
+  ],
+  "student_verification": "I verify that all LLM interactions for Task 2.1 have been logged accurately. The core analysis, interpretations, and experimental design decisions were my own.",
+  "declaration": "I declare that the above log is a complete and honest record of my LLM usage for this task.",
+  "top_5_prompts": [
+    {
+      "prompt": "How should I generate a synthetic 2D point set for non-rigid registration?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "Write code to apply a specific non-rigid bending and stretching to 2D coordinates.",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "How can I add Gaussian noise and random outliers to the point set to test robustness?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    }
+  ]
+}

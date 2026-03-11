@@ -1,0 +1,50 @@
+{
+  "student_name": "Kanhaiya Kumar",
+  "roll_number": "230062",
+  "task_tag": "Task 1.1",
+  "interactions": [
+    {
+      "task_tag": "Task 1.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Help me understand the step-by-step algorithm description for the GMM point set registration paper.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I rewrote the mathematical explanations in my own words, synthesized the steps into a clear 6-step process, and structured them logically into the Jupyter notebook."
+    },
+    {
+      "task_tag": "Task 1.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Can you explain the mathematical meaning of the L2 distance between two GMMs as used in the paper?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I rewrote the mathematical explanations in my own words, synthesized the steps into a clear 6-step process, and structured them logically into the Jupyter notebook."
+    },
+    {
+      "task_tag": "Task 1.1",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "How does the Thin-Plate Spline (TPS) transformation work in Algorithm 1?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I rewrote the mathematical explanations in my own words, synthesized the steps into a clear 6-step process, and structured them logically into the Jupyter notebook."
+    }
+  ],
+  "student_verification": "I verify that all LLM interactions for Task 1.1 have been logged accurately. The core analysis, interpretations, and experimental design decisions were my own.",
+  "declaration": "I declare that the above log is a complete and honest record of my LLM usage for this task.",
+  "top_5_prompts": [
+    {
+      "prompt": "Help me understand the step-by-step algorithm description for the GMM point set registration paper.",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "Can you explain the mathematical meaning of the L2 distance between two GMMs as used in the paper?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "How does the Thin-Plate Spline (TPS) transformation work in Algorithm 1?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    }
+  ]
+}

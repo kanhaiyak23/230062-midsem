@@ -1,0 +1,50 @@
+{
+  "student_name": "Kanhaiya Kumar",
+  "roll_number": "230062",
+  "task_tag": "Task 1.2",
+  "interactions": [
+    {
+      "task_tag": "Task 1.2",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "What are the three key assumptions of the GMM registration method?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I critically evaluated the assumptions provided, selected the most impactful ones, and added my own scenarios illustrating when these assumptions would be violated in real-world data."
+    },
+    {
+      "task_tag": "Task 1.2",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "Why is isotropic covariance assumed for all Gaussian components?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I critically evaluated the assumptions provided, selected the most impactful ones, and added my own scenarios illustrating when these assumptions would be violated in real-world data."
+    },
+    {
+      "task_tag": "Task 1.2",
+      "tool_used": "Gemini (Google AI Studio)",
+      "prompt_summary": "What happens if the sampling density between the two point sets is very different?",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations.",
+      "code_used_verbatim": false,
+      "student_modification": "I critically evaluated the assumptions provided, selected the most impactful ones, and added my own scenarios illustrating when these assumptions would be violated in real-world data."
+    }
+  ],
+  "student_verification": "I verify that all LLM interactions for Task 1.2 have been logged accurately. The core analysis, interpretations, and experimental design decisions were my own.",
+  "declaration": "I declare that the above log is a complete and honest record of my LLM usage for this task.",
+  "top_5_prompts": [
+    {
+      "prompt": "What are the three key assumptions of the GMM registration method?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "Why is isotropic covariance assumed for all Gaussian components?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    },
+    {
+      "prompt": "What happens if the sampling density between the two point sets is very different?",
+      "why_selected": "This prompt was key to advancing the analytical or coding requirements of this task step.",
+      "response_summary": "Provided code generation, structuring, and mathematical explanations."
+    }
+  ]
+}
